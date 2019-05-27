@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+
+    <view entity="ceeiin_Pet" name="pet-view" extends="_local">
+        <property name="owner" view="owner-view"/>
+    </view>
+    <view entity="ceeiin_Person" name="owner-view" extends="_local" overwrite="true">
+        <property name="user" view="_minimal"/>
+    </view>
+    <view entity="ceeiin_Owner" name="owner-view" extends="_local"/>
+    <view entity="ceeiin_Company" name="owner-view" extends="_local" overwrite="true"/>
+</views>
