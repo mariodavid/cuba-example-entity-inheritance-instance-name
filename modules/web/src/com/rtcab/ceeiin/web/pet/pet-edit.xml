@@ -9,7 +9,6 @@
                   view="pet-view">
             <loader/>
         </instance>
-
     </data>
     <dialogMode height="600"
                 width="800"/>
