@@ -31,7 +31,7 @@ The view's definition looks like this:
 
 #### View definition
 
-```
+```xml
 <views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
 
     <view entity="ceeiin_Pet" name="pet-view" extends="_local">
@@ -60,7 +60,7 @@ The view's definition looks like this:
 In  the pet editor it should be possible to select a particular owner (either a person or a company). The `pet-view` includes the owner
 with the `owner-view`.
 
-```
+```xml
 <data>
     <instance id="petDc"
               class="com.rtcab.ceeiin.entity.Pet"
