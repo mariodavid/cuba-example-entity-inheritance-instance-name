@@ -95,9 +95,9 @@ IllegalStateException: Cannot get unfetched attribute [user] from detached objec
 
 ![unfetched-error-person](https://github.com/mariodavid/cuba-example-entity-inheritance-instance-name/blob/master/img/unfetched-error-person.png)
 
+![unfetched-error-person](https://github.com/mariodavid/cuba-example-entity-inheritance-instance-name/blob/master/img/unfetched-error-person.png)
 
 ### Solution
 
 A solution can be found in the branch `solution-persisted-instance-name` and also in this PR: https://github.com/mariodavid/cuba-example-entity-inheritance-instance-name/pull/1
 
-![unfetched-error-person](https://github.com/mariodavid/cuba-example-entity-inheritance-instance-name/blob/master/img/unfetched-error-person.png)
