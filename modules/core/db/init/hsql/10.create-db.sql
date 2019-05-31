@@ -28,6 +28,7 @@ create table CEEIIN_OWNER (
     DTYPE varchar(31),
     --
     OWNER_IDENTIFICATION_NUMBER varchar(255),
+    DESCRIPTION varchar(255),
     --
     -- from ceeiin_Person
     USER_ID varchar(36),

@@ -35,6 +35,7 @@
             </actions>
             <columns>
                 <column id="ownerIdentificationNumber" />
+                <column id="description" />
             </columns>
             <rowsCount/>
             <buttonsPanel id="buttonsPanel"
